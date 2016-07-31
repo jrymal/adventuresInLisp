@@ -1,0 +1,126 @@
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Matrix</title>
+    </head>
+    <script>
+        // Settings
+        var FONT='10pt Georgia';
+        var FONT_COLOR='#0F0';
+        var HORIZONTAL_CHAR_SPACE=12;
+        var VERTICAL_CHAR_SPACE=10;
+        var UPDATE_SPEED=50; // amount of time between updates to canvas in ms
+        var FADE_ALPHA=.05; // the amount to fade per animation
+        
+        // this is the list of characters to show
+        var CHAR_SET = range('a','z').concat(range(String.fromCharCode(0x904), String.fromCharCode(0x939)));
+
+        // The array to animate from
+        var yPositions;
+
+        function start()
+        {
+            // build a minimal array to hold the current values
+            // Note this needs to be the width of the largest canvas
+            yPositions = Array(Math.ceil(leftSide.width/HORIZONTAL_CHAR_SPACE)+1).join(0).split('');
+            
+            // update the canvas (can be stored to a var if we want to stop the animation)
+            setInterval(draw, UPDATE_SPEED);
+        }
+    
+        var draw = function()
+        {
+            drawCanvas(leftSide);
+        }
+
+        function drawCanvas(canvasId)
+        {
+            var width = canvasId.width;
+            var height = canvasId.height;
+
+            // Use 2D mode for drawing
+            var ctx = canvasId.getContext('2d');
+            
+            // dim older characters (gives the fade effect)
+            ctx.fillStyle = 'rgba(0,0,0,'+FADE_ALPHA+')';
+            ctx.fillRect( 0, 0, width, height);
+            ctx.fillStyle = FONT_COLOR;
+            ctx.font = FONT;
+
+            // The real work of what is going in the canvas
+            yPositions.map(
+               function(y, index) {
+                    // Identifies the column position
+                    var x = index * HORIZONTAL_CHAR_SPACE;
+                    
+                    // Sets the char at a particular position
+                    ctx.fillText(getNewChar(), x, y);
+                           
+                    // Increments the line or restarts it
+                    if(y > Math.random()*8*height) {
+                        // Restart the line back at the top
+                        yPositions[index] = 0;
+                    } else {
+                        // Go to the next position (downward)
+                        yPositions[index] = y + VERTICAL_CHAR_SPACE;
+                    }
+                }
+            );
+        }
+    
+        function getNewChar()
+        {
+            // Array assumes whole numbers
+            return CHAR_SET[Math.floor(Math.random()*CHAR_SET.length)];
+        }
+    
+        /* Used to generate the list of characters */
+        function range(start,stop)
+        {
+            var result=[];
+            for (var idx=start.charCodeAt(0),end=stop.charCodeAt(0); idx <=end; ++idx){
+                result.push(String.fromCharCode(idx));
+            }
+            return result;
+        };
+
+    
+    </script>
+    <style>
+    .overlayWrapper {
+        float: center;
+        text-align: center;
+        display: inline-block;
+        left: 20px;
+        top: 20px;
+        width: 120px;
+        position: absolute;
+    }
+    
+    .overlayWrapper h1 a {
+        color: dfdfdf;
+        float: center;
+        text-align: center;
+        width: 100%;
+        text-decoration:none;
+    }
+    
+    aside {
+        width: 150px;
+        float:left;
+    }
+    
+    /* Note that css does not work with setting the size of the canvas */
+    
+    </style>
+    <body onload="start()">
+        <aside>
+            <canvas id="leftSide" width="120px" height="600px" >Your browser does not support canvas tags...please get a better browser</canvas>
+            <div class="overlayWrapper">
+                <h1><a href="http://www.google.com">Google</a></h1>
+                <h1><a href="http://www.apple.com">Apple</a></h1>
+            </div>
+        </aside>
+    </body>
+</html>
