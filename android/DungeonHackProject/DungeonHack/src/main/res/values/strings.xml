@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DungeonHack</string>
+    <string name="home_screen_button">Start Quest</string>
+    <string name="home_screen_text">Dungeon Hack</string>
+    <string name="title_activity_game_ui">GameUi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

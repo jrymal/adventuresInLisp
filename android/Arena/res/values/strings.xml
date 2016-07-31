@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arena</string>
+    <string name="item_title_settings">Settings</string>
+    <string name="item_title_new_game">New Game</string>
+    <string name="title_activity_game_ui">GameUI</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="item_gameui_round">Round:</string>
+    <string name="item_gameui_board">Current Board</string>
+    <string name="item_gameui_cash">Cash:</string>
+    <string name="item_gameui_hand">Hand</string>
+    <string name="item_gameui_phase">Phase:</string>
+    <string name="item_gameui_player">Player:</string>
+    <string name="item_gameui_get_player_name">Player name</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<Deck>
+    
+    <Card creatureType="COLOSSUS" cardName="COLOSSUS" rangeMin="0" rangeMax="10" />
+    <Card creatureType="SERAPHIM" cardName="SERAPHIM" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="TITAN" cardName="TITAN" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="TROLL" cardName="TROLL" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="GORGON" cardName="GORGON" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="ETTIN" cardName="ETTIN" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="MAGUS" cardName="MAGUS" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="UNICORN" cardName="UNICORN" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="DAIMON" cardName="DAIMON" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="AMAZON" cardName="AMAZON" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="CYCLOPS" cardName="CYCLOPS" rangeMin="0" rangeMax="10"/>
+    <Card creatureType="WYRM" cardName="WYRM" rangeMin="0" rangeMax="10"/>
+    
+    <Card cardName="PREFECT" count="2"/>
+    <Card cardName="MAGISTER"/>
+    
+    <Card cardName="BEHEMOTH" value="10"/>
+    <Card cardName="JINN" value="9"/>
+    <Card cardName="KRAKEN" value="8"/>
+    <Card cardName="CHERUBIM" value="7"/>
+    <Card cardName="MINOTAUR" value="6"/>
+    <Card cardName="GOBLINS" value="5"/>
+    <Card cardName="URSA" value="4"/>
+    <Card cardName="GRYPHON" value="3"/>
+    <Card cardName="GARGOYLE" value="2"/>
+    <Card cardName="CENTAUR" value="1"/>
+    <Card cardName="SERPENT" value="0"/>
+</Deck>

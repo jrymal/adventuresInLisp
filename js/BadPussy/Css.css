@@ -1,0 +1,53 @@
+
+body {
+ font:76% normal verdana,arial,tahoma;
+}
+
+h1, h2 {
+ font-size:1em;
+}
+
+#headObject {
+ position:absolute;
+ left:0px;
+ top:0px;
+ 
+ width: auto;
+ height: auto;
+ z-index:1;
+}
+
+.chest {
+	border: 2px solid black;
+	position:absolute;
+	background: blue;
+	width: 90px;
+	height: 60px;
+	z-index: 0;
+}
+
+.eye {
+	border: 1px solid black;
+	border-radius: 50%;
+	position:absolute;
+    left:0px;
+    top:0px;
+	background: white;
+	
+	width: 20px;
+	height: 20px;
+	z-index: 5;
+}
+
+.pupil {
+	border-radius: 50%;
+	position:absolute;
+	left:0px;
+    top:0px;
+	background: black;
+	
+	width: 7px;
+	height: 7px;
+	
+	z-index: 9;
+}

@@ -1,0 +1,19 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1378518885000 181 84de2797380184d8b39af6f829afb092fb956173 /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values-sw600dp/dimens.xml
+1378518885000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values-sw720dp-land/dimens.xml
+1376447107000 489 69d532142c914e35dd14b9c42adf646f0f223949 /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values/attrs.xml
+1376447107000 967 b05ec49f9d24ab6ee58de704cae240f94ebaedb3 /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values-v11/styles.xml
+1378518885000 396 7422893cd19068a679bdfdbefb461eaa2174337f /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values/strings.xml
+1376447107000 3760 9d45e7de00dac30e9738dc369dece2835bf9677e /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/drawable-mdpi/ic_launcher.png
+1376447107000 77 279f2987057cb473bdb9ffc8bdc3d1740fc241cb /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values/colors.xml
+1378518885000 643 3f9ad508b7ba980ca27a48df8e7c3385700ab412 /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/layout/game_ui.xml
+1376447107000 1423 5e3937aba092f915ebb34a8aa59fdcba39a10ee7 /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values/styles.xml
+1378518885000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/menu/game_ui.xml
+1378518885000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values/dimens.xml
+1376448490000 1834 85ac9d73ccedc41cf768d2e99218b052cae754eb /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/layout/home_screen.xml
+1376447107000 381 b129b276e01126de5b3b753572ac67cbfc19454c /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/values-v14/styles.xml
+1376447107000 7783 03172612ec7d8d2cc6295a185410c3e6501771aa /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/drawable-hdpi/ic_launcher.png
+1376447107000 12356 75154d4f6e93c8832a74d3c27c8cf0d44672ea3e /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/drawable-xhdpi/ic_launcher.png
+1376447107000 24780 6c2954bdacb8129ac00edfd084b98daf226518e3 /Users/jrymal/AndroidStudioProjects/DungeonHackProject/DungeonHack/src/main/res/drawable-xxhdpi/ic_launcher.png
