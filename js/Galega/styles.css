@@ -1,0 +1,28 @@
+#greeting {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin: 15px;
+}
+
+#game {
+  background: black;
+  height: 800px;
+  width: 500px;
+}
+
+.all {
+  height: 100%;
+  width: 100%;
+}
+
+#start .startbutton {
+  background: white;
+  height: 40px;
+  width: 100px;
+  color: red;
+  margin: -20px -50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
